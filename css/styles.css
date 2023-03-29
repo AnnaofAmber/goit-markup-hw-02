@@ -94,3 +94,25 @@ a {
 .text-footer {
   color: #f4f4fd;
 }
+
+/* portfolio */
+.btn-portfolio {
+  background: #f4f4fd;
+}
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+  background: #404bbf;
+}
+.btn-name {
+  color: #4d5ae5;
+  font-weight: 500;
+}
+.btn-name:hover,
+.btn-name:focus {
+  color: #ffffff;
+}
+.title-portfolio {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+}
