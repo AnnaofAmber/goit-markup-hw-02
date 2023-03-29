@@ -1,34 +1,36 @@
 /* body */
 body {
-  font-family: 'Roboto';
+  font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif;
   color: #434455;
-}
-a {
-  text-decoration: none;
 }
 /* header */
 .logo {
+  text-decoration: none;
+  font-family: 'Raleway';
   font-weight: 800;
   font-size: 18px;
+  line-height: 1.17;
   text-transform: uppercase;
-}
-.logo-web {
   color: #4d5ae5;
 }
 .logo-studio {
   color: #2e2f42;
 }
 .header-nav {
+  text-decoration: none;
   color: #2e2f42;
   font-weight: 500;
+  line-height: 1.5;
 }
 .header-nav:hover,
 .header-nav:focus {
   color: #404bbf;
 }
 .adress {
+  text-decoration: none;
   color: #434455;
   font-style: normal;
+  line-height: 1.5;
 }
 .adress:hover,
 .adress:focus {
@@ -44,9 +46,12 @@ a {
   font-weight: 700;
   font-size: 56px;
   color: #ffffff;
+  line-height: 1.07;
+  text-align: center;
 }
 .btn-hero {
   background: #4d5ae5;
+  cursor: pointer;
 }
 .btn-hero:hover,
 .btn-hero:focus {
@@ -55,11 +60,17 @@ a {
 .btn-text {
   font-weight: 500;
   color: #ffffff;
+  line-height: 1.5;
 }
 /* section 1 */
 .title-adv {
   color: #2e2f42;
+  font-weight: 500;
   font-size: 20px;
+  line-height: 1.2;
+}
+.text-adv {
+  line-height: 1.5;
 }
 
 /* section 2 */
@@ -67,6 +78,9 @@ a {
   font-weight: 700;
   font-size: 36px;
   color: #2e2f42;
+  line-height: 1.11;
+  text-transform: capitalize;
+  text-align: center;
 }
 /* section 3 */
 .section-team {
@@ -80,8 +94,12 @@ a {
   font-weight: 500;
   font-size: 20px;
   color: #2e2f42;
+  line-height: 1.2;
+  text-align: center;
 }
 .member-job {
+  line-height: 1.5;
+  text-align: center;
 }
 
 /* footer */
@@ -93,11 +111,13 @@ a {
 }
 .text-footer {
   color: #f4f4fd;
+  line-height: 1.5;
 }
 
 /* portfolio */
 .btn-portfolio {
   background: #f4f4fd;
+  cursor: pointer;
 }
 .btn-portfolio:hover,
 .btn-portfolio:focus {
@@ -106,6 +126,7 @@ a {
 .btn-name {
   color: #4d5ae5;
   font-weight: 500;
+  line-height: 1.5;
 }
 .btn-name:hover,
 .btn-name:focus {
@@ -115,4 +136,8 @@ a {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
+  line-height: 1.2;
+}
+.type-portfolio {
+  line-height: 1.5;
 }
