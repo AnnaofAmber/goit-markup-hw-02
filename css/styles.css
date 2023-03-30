@@ -1,7 +1,13 @@
+:root {
+  --main-text-color: #434455;
+  --second-text-color: #2e2f42;
+  --color-hover: #404bbf;
+  --accent: #4d5ae5;
+}
 /* body */
 body {
   font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif;
-  color: #434455;
+  color: var(--main-text-color);
 }
 /* header */
 .logo {
@@ -11,35 +17,35 @@ body {
   font-size: 18px;
   line-height: 1.17;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--accent);
 }
 .logo-studio {
-  color: #2e2f42;
+  color: var(--second-text-color);
 }
 .header-nav {
   text-decoration: none;
-  color: #2e2f42;
+  color: var(--second-text-color);
   font-weight: 500;
   line-height: 1.5;
 }
 .header-nav:hover,
 .header-nav:focus {
-  color: #404bbf;
+  color: var(--color-hover);
 }
 .adress {
   text-decoration: none;
-  color: #434455;
+  color: var(--main-text-color);
   font-style: normal;
   line-height: 1.5;
 }
 .adress:hover,
 .adress:focus {
-  color: #404bbf;
+  color: var(--color-hover);
 }
 /* main */
 /* hero */
 .hero {
-  background: #2e2f42;
+  background: var(--second-text-color);
 }
 
 .title-hero {
@@ -50,12 +56,12 @@ body {
   text-align: center;
 }
 .btn-hero {
-  background: #4d5ae5;
+  color: var(--accent);
   cursor: pointer;
 }
 .btn-hero:hover,
 .btn-hero:focus {
-  background: #404bbf;
+  background: var(--color-hover);
 }
 .btn-text {
   font-weight: 500;
@@ -64,7 +70,7 @@ body {
 }
 /* section 1 */
 .title-adv {
-  color: #2e2f42;
+  color: var(--second-text-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -77,7 +83,7 @@ body {
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  color: #2e2f42;
+  color: var(--second-text-color);
   line-height: 1.11;
   text-transform: capitalize;
   text-align: center;
@@ -93,7 +99,7 @@ body {
 .member-name {
   font-weight: 500;
   font-size: 20px;
-  color: #2e2f42;
+  color: var(--second-text-color);
   line-height: 1.2;
   text-align: center;
 }
@@ -104,7 +110,7 @@ body {
 
 /* footer */
 .footer {
-  background: #2e2f42;
+  background: var(--second-text-color);
 }
 .logo-footer {
   color: #f4f4fd;
@@ -121,10 +127,10 @@ body {
 }
 .btn-portfolio:hover,
 .btn-portfolio:focus {
-  background: #404bbf;
+  background: var(--color-hover);
 }
 .btn-name {
-  color: #4d5ae5;
+  color: var(--accent);
   font-weight: 500;
   line-height: 1.5;
 }
@@ -133,7 +139,7 @@ body {
   color: #ffffff;
 }
 .title-portfolio {
-  color: #2e2f42;
+  color: var(--second-text-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
