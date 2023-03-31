@@ -18,6 +18,8 @@ body {
   font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif;
   color: var(--color-slate);
   background-color: var(--color-dairy);
+  letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 .list {
   list-style: none;
@@ -43,7 +45,6 @@ body {
   text-decoration: none;
   color: var(--color-navy-blue);
   font-weight: 500;
-  line-height: 1.5;
 }
 .header-nav:hover,
 .header-nav:focus {
@@ -53,7 +54,6 @@ body {
   text-decoration: none;
   color: var(--color-slate);
   font-style: normal;
-  line-height: 1.5;
 }
 .adress:hover,
 .adress:focus {
@@ -83,7 +83,6 @@ body {
 .btn-text {
   font-weight: 500;
   color: var(--color-white);
-  line-height: 1.5;
   letter-spacing: 0.04em;
 }
 /* section 1 */
@@ -92,9 +91,6 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-}
-.text-adv {
-  line-height: 1.5;
 }
 
 /* section 2 */
@@ -122,7 +118,6 @@ body {
   text-align: center;
 }
 .member-job {
-  line-height: 1.5;
   text-align: center;
 }
 
@@ -135,7 +130,6 @@ body {
 }
 .text-footer {
   color: var(--color-dairy);
-  line-height: 1.5;
 }
 
 /* portfolio */
@@ -150,7 +144,6 @@ body {
 .btn-name {
   color: var(--accent);
   font-weight: 500;
-  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.04em;
 }
@@ -167,7 +160,4 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-}
-.type-portfolio {
-  line-height: 1.5;
 }
